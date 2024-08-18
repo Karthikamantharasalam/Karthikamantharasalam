@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Workflow Builder</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="workflow-builder.html">Workflow Builder</a>
+            <a href="component-library.html">Component Library</a>
+            <span class="dropdown">
+                <button class="dropbtn">Menu</button>
+                <div class="dropdown-content">
+                    <a href="#">Completed Audits</a>
+                    <a href="#">Ongoing Audits</a>
+                    <a href="#">Pending Audits</a>
+                    <a href="#">Settings</a>
+                </div>
+            </span>
+            <button id="help-btn">Help</button>
+        </nav>
+    </header>
+    <main>
+        <div id="component-library">
+            <h2>Component Library</h2>
+            <button id="add-audit-btn">Add New Audit</button>
+            <!-- List of components will be populated here -->
+        </div>
+        <div id="workflow-design">
+            <h2>Workflow Design Area</h2>
+            <!-- Drag-and-drop area will be here -->
+            <button id="preview-btn">Preview Workflow</button>
+            <button id="save-btn">Save Workflow</button>
+            <button id="reset-btn">Reset</button>
+        </div>
+    </main>
+    <script src="scripts.js"></script>
+</body>
+</html>
