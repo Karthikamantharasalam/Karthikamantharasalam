@@ -1,0 +1,42 @@
+This is team MCS3236
+We are team of two "Karthika -23mcs036 " " Janaranjani M -23mcs032" - Msc Computer science from Sri krishna arts and science college 
+This project aimed at building a logical digital tool for safety inspectors to design safety inspection workflows effecienty and customised.
+So the goal is to develop a web app - a tool for designing safety inspection workflows
+The tool will be called "Safety Inspector" and will be built using HTML , CSS , JS.
+The tool will have the following features:
+SAFETY MANAGER :
+Workflow builder 
+- Component library - which has all the predefined workflows , ( SM ) can edit / use this to assign task to user 
+- Generate workflow + - SM can create new workflow (which is added to component library)- in this SM can add task and description of the workflow 
+the workflow is designed with a logic that - once a task is started only after completing it can move to next task{on success- move to next task on the workflow  / on failed task - move to next defined task to replace this task }
+Once a workflow is created it can be previewd  and this workflow creation area is a drag and drop interface
+USER (SAFETY INSPECTOR):
+ - can view all the workflows created by SM
+ - can view all the workflows assigned to him
+ - can view all the workflows completed by him
+ - can add comments to the workflow
+ The tool will be built using HTML, CSS, JS, and will be hosted on a cloud platform
+
+ Module 1: User management module
+ User / Safety Manager / Admin - login / sign up
+ Module 2: Workflow Design Module
+ - Drag and drop interface - user can drag and drop components from library
+ - Component library - which has all the predefined workflows
+ - Branching logic configuration
+ - Generate workflow + - SM can create new workflow (which is added to component library)- in this
+ SM can add task and description of the workflow
+ The workflow is designed with a logic that - once a task is started only after completing it can move
+ to next task{on success- move to next task on the workflow  / on failed task -
+ move to next defined task to replace this task }
+ Module 3: Workflow Execution Module
+ - a real time dashboard showing the status of ongoing workflow , including completed tasks , pending tasks, and decision outcomes 
+ Module 4 : Progress tracking and analytics module 
+ - analytics dashboard
+ Module 5 : Storage and Database Module
+ - Workflow Storage
+ - data Storage
+ Module 6 : Security Module
+ - User authentication and authorization
+ Module 7: Notification and Alert Module 
+
+
